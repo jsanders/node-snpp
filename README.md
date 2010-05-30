@@ -33,7 +33,7 @@ Usage
       request.addListener('send', function () {
         // request.pager contains pager number, request.message contains message
       });
-    }).lisen('444', 'localhost');
+    }).listen('444', 'localhost');
 
 Examples can be found in the examples directory.
 
