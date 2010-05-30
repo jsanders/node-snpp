@@ -5,12 +5,14 @@ An SNPP (level 1) server library for Node.js.
 
 [rq]: http://github.com/jsanders/node-snpp
 
-=== Installation
+Installation
+--------------
 
 Clone or otherwise download library and symlink or copy snpp.js into your ~/.node_libraries directory.
 
-=== Usage
-
+Usage
+---------------
+`
 var snpp = require('snpp');
 snpp.createServer(function (request, response) {
   // Handle 'PAGE' command
@@ -33,10 +35,12 @@ snpp.createServer(function (request, response) {
     // request.pager contains pager number, request.message contains message
   });
 }).lisen('444', 'localhost');
+`
 
 Examples can be found in the examples directory.
 
-=== LICENSE
+License
+---------------
 
 (The MIT License)
 
