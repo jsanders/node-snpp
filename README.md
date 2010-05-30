@@ -12,30 +12,28 @@ Clone or otherwise download library and symlink or copy snpp.js into your ~/.nod
 
 Usage
 ---------------
-`
-var snpp = require('snpp');
-snpp.createServer(function (request, response) {
-  // Handle 'PAGE' command
-  request.addListener('page', function () {
-    // request.pager contains pager number
-  });
+    var snpp = require('snpp');
+    snpp.createServer(function (request, response) {
+      // Handle 'PAGE' command
+      request.addListener('page', function () {
+        // request.pager contains pager number
+      });
 
-  // Handle 'MESS' command
-  request.addListener('mess', function () {
-    // request.pager contains pager number, request.message contains message
-  });
+      // Handle 'MESS' command
+      request.addListener('mess', function () {
+        // request.pager contains pager number, request.message contains message
+      });
 
-  // Handle 'SEND' command
-  request.addListener('send', function () {
-    // request.pager contains pager number, request.message contains message
-  });
+      // Handle 'SEND' command
+      request.addListener('send', function () {
+        // request.pager contains pager number, request.message contains message
+      });
 
-  // Handle 'QUIT' command
-  request.addListener('send', function () {
-    // request.pager contains pager number, request.message contains message
-  });
-}).lisen('444', 'localhost');
-`
+      // Handle 'QUIT' command
+      request.addListener('send', function () {
+        // request.pager contains pager number, request.message contains message
+      });
+    }).lisen('444', 'localhost');
 
 Examples can be found in the examples directory.
 
