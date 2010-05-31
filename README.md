@@ -30,7 +30,7 @@ Usage
       });
 
       // Handle 'QUIT' command
-      request.addListener('send', function () {
+      request.addListener('quit', function () {
         // request.pager contains pager number, request.message contains message
       });
     }).listen('444', 'localhost');
