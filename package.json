@@ -1,0 +1,34 @@
+{
+  "name": "snpp",
+  "version" : "0.1.2",
+  "description": "An SNPP server library",
+  "keywords": ["snpp", "server"],
+  "author": "James Sanders <sanderjd@gmail.com>",
+  "maintainers": [
+    {
+      "name": "James Sanders",
+      "email": "sanderjd@gmail.com",
+      "web": "http://github.com/jsanders"
+    }
+  ],
+  "bugs": { "mail": "sanderjd@gmail.com", "web": "http://github.com/jsanders/node-snpp/issues" },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/jsanders/node-snpp.git"
+    }
+  ],
+  "engines": [ "v8", "node" ],
+  "directories": {
+    "lib": "lib",
+    "test": "test",
+    "examples": "examples"
+  },
+  "main": "./lib/snpp.js"
+}
